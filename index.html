@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New tab</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="flex-item-top"><h1><span id="time"></span></h1></div>
+
+    <div class="flex-item">
+      <ul>
+        <li class="category">personal</li>
+        <li class="pulse"><a href="https://vault.bitwarden.com/">bitwarden</a></li>
+        <li class="pulse"><a href="https://mail.disroot.org/">disroot</a></li>
+        <li class="pulse"><a href="https://cloud.disroot.org/apps/notes/">notes</a></li>
+        <li class="pulse"><a href="https://mail.protonmail.com/">proton</a></li>
+      </ul>
+    </div>
+
+    <div class="flex-item">
+      <ul>
+        <li class="category">social</li>
+        <li class="pulse"><a href="https://web.telegram.org/k/">telegram</a></li>
+        <li class="pulse"><a href="https://web.whatsapp.com/">whatsapp</a></li>        
+      </ul>
+    </div>
+
+    <div class="flex-item">
+      <ul>
+        <li class="category">media</li>
+        <li class="pulse"><a href="https://www.reddit.com/">reddit</a></li>
+        <li class="pulse"><a href="https://git.disroot.org/">youtube</a></li>
+        <li class="pulse"><a href="https://www.youtube.com/">lofi.cafe</a></li>
+        <li class="pulse"><a href="https://www.disneyplus.com/">disney+</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="flex-item">
+      <ul>
+        <li class="category">etc</li>
+        <li class="pulse"><a href="https://github.com/">github</a></li>
+        <li class="pulse"><a href="https://store.steampowered.com/">steam</a></li>
+        <li class="pulse"><a href="https://www.gog.com/">gog</a></li>
+        <li class="pulse"><a href="https://www.epicgames.com/store/">egs</a></li>
+      </ul>
+    </div>
+
+    <form action="https://duckduckgo.com/" method="get" onsubmit="return decideWhatToDo()" id="ddg-search">
+      <div class="flex-item-bottom">
+          <input autofocus="true" class="text-field-3 hero-search-bar w-input" data-name="q" id="field-3" maxlength="256" name="q" placeholder="search" type="text" size="100">
+      </div>
+    </form>
+
+    <script src="./js/clock.js"></script>
+    <script src=".js/search.js"></script>
+  </div>
+</body>
+
+</html>
