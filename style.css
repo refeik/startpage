@@ -27,6 +27,19 @@ input {
   color: inherit;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #dfdfdf;
+    background: #101010;
+  }
+  a[href] {
+    color: #9e9eff;
+  }
+  a[href]:hover {
+    color: #bebedf;
+  }
+}
+
 @media (max-width: 800px) {
   input {
     width: 100%;
